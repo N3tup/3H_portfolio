@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon Site One Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo-container">
+                <img src="logo/logo.png" id="logo" alt="Logo de l'entreprise">
+        </div>
+        <nav>
+            
+            <ul class="navigation">
+                <li class="menu-item"><a href="#accueil"><h1>Accueil</h1></a></li>
+                <li class="menu-item"><a href="#slider"><h1>Slider</h1></a></li>
+                <li class="menu-item"><a href="#accordion"><h1>Produits</h1></a></li>
+                <li class="menu-item"><a href="#footer"><h1>RGPD</h1></a></li> <!-- Lien vers la page RGPD -->
+            </ul>
+    </header>
+    
+    <div id="slider">
+       <input type="radio" name="slider" id="slide1" checked>
+       <input type="radio" name="slider" id="slide2">
+       <input type="radio" name="slider" id="slide3">
+       <input type="radio" name="slider" id="slide4">
+       <div id="slides">
+          <div id="overflow">
+             <div class="inner">
+                <div class="slide slide_1">
+                   <img src="Slider\Slider1.jpg" alt="Image for Slide 1">
+                   
+                </div>
+                <div class="slide slide_2">
+                    <img src="Slider\Slider2.jpg" alt="Image for Slide 2">
+                </div>
+                <div class="slide slide_3">
+                   <img src="Slider\Slider3.jpg" alt="Image for Slide 3">
+                </div>
+                <div class="slide slide_4">
+                   <img src="Slider\Slider4.jpg" alt="Image for Slide 4">
+                </div>
+             </div>
+          </div>
+       </div>
+       <div id="controls">
+          <label for="slide1"></label>
+          <label for="slide2"></label>
+          <label for="slide3"></label>
+          <label for="slide4"></label>
+       </div>
+       <div id="bullets">
+          <label for="slide1"></label>
+          <label for="slide2"></label>
+          <label for="slide3"></label>
+          <label for="slide4"></label>
+       </div>
+    </div>
+    
+    <div class="accordion">
+        <ul>
+            <li>
+                <div class="caption"><a></a></div>
+                <a href="">
+                    <img src='Produit\Produit1.jpg'/>
+                </a>
+            </li>
+        
+            <li>
+                <div class="caption"><a></a></div>
+                <img src='Produit\Produit2.jpg'/>
+            </li>
+        
+            <li>
+                <div class="caption"><a></a></div>
+                <img src='Produit\Produit3.jpg'>
+            </li>
+        
+            <li>
+                <div class="caption"><a></a></div>
+                <img src='Produit\Produit4.jpg'/>
+            </li>
+            <li>
+                <div class="caption"><a></a></div>
+                <img src='Produit\Produit5.jpg'/>
+            </li>
+            <li>
+                <div class="caption"><a></a></div>
+                <img src='Produit\Produit6.jpg'/>
+            </li>
+        </ul>
+    </div>
+</body>
+</html>
+    <footer id ="footer">
+
+        <div class="mentions-legales">
+            <span>Mentions Légales</span>
+        </div>
+        <a href="rgpd.html">Politique de confidentialité (RGPD)</a>
+    </footer>
+</body>
+</html>
