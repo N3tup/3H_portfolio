@@ -22,4 +22,4 @@ Ce projet consiste en un site web one page avec un slider, une section présenta
 - Pour consulter la Politique de Confidentialité (RGPD), ouvrez `rgpd.html` dans un navigateur.
 
 ## Auteurs
-Ce projet a été réalisé par [Romain BOUCHEZ].
+Ce projet a été réalisé par Romain BOUCHEZ.
